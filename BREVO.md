@@ -6,3 +6,5 @@
 - 当前接入支持新邮件和普通附件；暂不支持保留会话线程的回复或正文内嵌图片。
 - 在 mail-worker 目录执行 `node --test test/brevo.test.mjs` 运行模拟测试；真实发信仍需单独验证。
 - Workers Builds 的构建命令需先安装 mail-vue 依赖并构建前端。
+
+- 如需手动排查，请检查 Cloudflare 构建日志中的依赖安装、前端构建与部署阶段。
